@@ -1,0 +1,36 @@
+1 => Proje N-Tier mimari paternine göre yazýlacaktýr.
+
+2 => Projede açýlacak katmanlar
+ENTITIES,
+DAL,
+BLL,
+DTO(API'daki esnekligimizin proje bazlý artmasý icin acacagýmýz katmandýr),
+API - UI (Projemizi dýþarý açmak istedigimiz için açtýðýmýz ayrý bir katmandýr),
+UI(MVC olarak düsünlmüþtür)
+
+3 => Katman isimleri Project ile baslayarak . sembolünden sonra katmansal takýlarla bitecektir(Project.ENTITIES vs...)
+
+4 => Projede deðiþken isimleri degiþkenler local variable oldugu sürece camelCase, field oldugu sürece basýnda _ sembolü olmak üzere camelCase; Property, metot ve class isimleri PascalCase standartlarýnda yazýlacaktýr ve projede Türkçe karakter kullanýlmayacaktýr. CLass isimleri kesinlikle cogul olmayacaktýr.
+
+Projede Kullanýlan Kütüphaneler ve Teknolojiler
+
+* Proje Asp.Net Core 8.0  ile yazýlmýþtýr.
+* ASP.NET Core API
+* SignalR
+* Swagger
+* DTO (Data Transfer Object)
+* N Tier Architecture
+* MSSQL (Microsoft SQL Server)
+* Ýliþkili Tablolar
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* Ajax
+* Entity Framework - Linq
+* Identity iþlemleri
+* Mail gönderme iþlemleri yapýldý.
+* Rezervasyon Ýþlemleri
+* Real-Time Ýstatistik
+* Real-Time Mesajlaþma
+* Real-Time Uygulamalar
